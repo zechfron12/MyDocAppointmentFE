@@ -14,8 +14,7 @@ import { AppointmentsService } from 'src/shared/services/appointments.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Patient } from 'src/models/patient';
 import * as moment from 'moment';
-import { colors } from 'src/environments/environment';
-
+import { colors } from 'src/environments/global';
 @Component({
   selector: 'app-medic-appointment',
   changeDetection: ChangeDetectionStrategy.OnPush,
